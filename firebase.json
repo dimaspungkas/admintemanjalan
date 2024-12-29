@@ -1,1 +1,39 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"percobaan-0798","appId":"1:177275696315:android:52842f3fc84f6a6b45a59e","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"percobaan-0798","configurations":{"android":"1:177275696315:android:52842f3fc84f6a6b45a59e","ios":"1:177275696315:ios:0a583657d6f5b37245a59e","macos":"1:177275696315:ios:0a583657d6f5b37245a59e","web":"1:177275696315:web:16c751a46b98b4db45a59e","windows":"1:177275696315:web:437e55fcc4dc53e245a59e"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "percobaan-0798",
+          "appId": "1:177275696315:android:52842f3fc84f6a6b45a59e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "percobaan-0798",
+          "configurations": {
+            "android": "1:177275696315:android:52842f3fc84f6a6b45a59e",
+            "ios": "1:177275696315:ios:0a583657d6f5b37245a59e",
+            "macos": "1:177275696315:ios:0a583657d6f5b37245a59e",
+            "web": "1:177275696315:web:16c751a46b98b4db45a59e",
+            "windows": "1:177275696315:web:437e55fcc4dc53e245a59e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
